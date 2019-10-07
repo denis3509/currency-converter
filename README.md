@@ -11,6 +11,7 @@
 Номер порта на сервере хранится в config/index.js
 
 Методы api:
+
 GET: `{url}/convert?amount=${input}&from=${from}&to=${to}`. url -адрес сервера, input - исходная сумма, from - исходная валюта, to - целевая валюта. В ответу возвращается exchangeResult - результат конвертации.
 
 GET: `{url}/currencyCodes`. Возвращает массив с кодами доступных валют. 
